@@ -1,1 +1,1 @@
-# asl-tranlator
+# asl-translator
