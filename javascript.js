@@ -1,14 +1,14 @@
 var signifyMeLogoCopy1 = document.getElementById("signifyMeLogoCopy1");
 if (signifyMeLogoCopy1) {
     signifyMeLogoCopy1.addEventListener("click", function (e) {
-        window.location.href = "./homepage.html";
+        window.location.href = "./index.html";
     });
 }
 
 var signifyMeLogoCopy2 = document.getElementById("signifyMeLogoCopy2");
 if (signifyMeLogoCopy2) {
     signifyMeLogoCopy2.addEventListener("click", function (e) {
-        window.location.href = "./homepage.html";
+        window.location.href = "./index.html";
     });
 }
 
@@ -36,7 +36,7 @@ if (phraseDictionaryText1) {
 var homeText = document.getElementById("homeText");
 if (homeText) {
     homeText.addEventListener("click", function (e) {
-        window.location.href = "./homepage.html";
+        window.location.href = "./index.html";
     });
 }
 
@@ -71,7 +71,7 @@ if (videoConvertorText) {
 var taskbarHome = document.getElementById("taskbar-home");
 if (taskbarHome) {
     taskbarHome.addEventListener("click", function (e) {
-        window.location.href = "./homepage.html";
+        window.location.href = "./index.html";
     });
 }
 
@@ -111,7 +111,7 @@ if (taskbarDict) {
         else camera_is_on = true;
 
         if(camera_is_on){
-            
+
         }
     });
 }
