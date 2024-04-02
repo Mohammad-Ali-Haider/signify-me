@@ -174,7 +174,6 @@
 }
 .buttons:hover {
   background-color: var(--color-darkslateblue);
-  border: 1.8px solid var(--color-royalblue);
   box-sizing: border-box;
 }
 .buttons-wrapper {
