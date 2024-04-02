@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>SignifyMe</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
@@ -69,12 +70,12 @@
             <div class="frame-parent1">
               <div class="buttons-wrapper">
                 <button class="buttons" id="camera-toggle">
-                  <div class="button">TURN ON CAMERA</div>
+                  <div class="button" id="camera_text_element">TURN ON CAMERA</div>
                 </button>
               </div>
               <div class="cam-area-parent">
-                <div class="cam-area"></div>
-                <div class="buttons-parent">
+                <div class="cam-area" id="camera-area"></div>
+                <div class="buttons-parent" id="button-start-stop">
                   <div class="buttons1">
                     <div class="button1">START</div>
                   </div>
@@ -82,7 +83,7 @@
                     <div class="button2">STOP</div>
                   </div>
                 </div>
-                <div class="audio-indicator-parent">
+                <div class="audio-indicator-parent" id="audio-indicator">
                   <div class="audio-indicator">
                     <div class="translated-text">TRANSLATED TEXT:</div>
                   </div>
@@ -110,7 +111,7 @@
             <div class="quick-links-group">
               <div class="quick-links1">Quick Links</div>
               <div class="navigation-items">
-                <div class="live-cam-translator2" id="liveCamTranslator1">
+                <div class="live-cam-translator2" id="liveCamTranslator">
                   Live Cam Translator
                 </div>
                 <div class="video-translator1" id="videoTranslatorText">
@@ -139,5 +140,6 @@
       </footer>
     </div>
     <script src="javascript.js"></script>
+    <script src="livecam.js"></script>
   </body>
 </html>

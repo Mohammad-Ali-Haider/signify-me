@@ -12,21 +12,21 @@ if (signifyMeLogoCopy2) {
     });
 }
 
-var liveCamTranslator1 = document.getElementById("liveCamTranslator1");
+var liveCamTranslator1 = document.getElementById("liveCamTranslator");
 if (liveCamTranslator1) {
     liveCamTranslator1.addEventListener("click", function (e) {
         window.location.href = "./livecam.html";
     });
 }
 
-var videoTranslatorText1 = document.getElementById("videoTranslatorText1");
+var videoTranslatorText1 = document.getElementById("videoTranslatorText");
 if (videoTranslatorText1) {
     videoTranslatorText1.addEventListener("click", function (e) {
         window.location.href = "./video.html";
     });
 }
 
-var phraseDictionaryText1 = document.getElementById("phraseDictionaryText1");
+var phraseDictionaryText1 = document.getElementById("phraseDictionaryText");
 if (phraseDictionaryText1) {
     phraseDictionaryText1.addEventListener("click", function (e) {
         window.location.href = "./dictionary.html";
@@ -100,18 +100,5 @@ var taskbarDict = document.getElementById("taskbar-dict");
 if (taskbarDict) {
     taskbarDict.addEventListener("click", function (e) {
         window.location.href = "./dictionary.html";
-    });
-}
-
-var taskbarDict = document.getElementById("camera-toggle");
-var camera_is_on = false;
-if (taskbarDict) {
-    taskbarDict.addEventListener("click", function (e) {
-        if(camera_is_on) camera_is_on = false;
-        else camera_is_on = true;
-
-        if(camera_is_on){
-
-        }
     });
 }

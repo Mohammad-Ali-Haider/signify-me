@@ -152,6 +152,7 @@
   color: var(--bright-skies);
   text-align: left;
   display: inline-block;
+  transition: color 0.3s ease;
 }
 .buttons,
 .buttons-wrapper {
@@ -163,7 +164,7 @@
 }
 .buttons {
   cursor: pointer;
-  border: 1.8px solid var(--color-navy);
+  border: 0px;
   padding: var(--padding-sm) var(--padding-45xl);
   background-color: var(--melancholia);
   border-radius: var(--br-81xl);
@@ -182,7 +183,7 @@
   padding: 0 var(--padding-xl);
 }
 .button1,
-.cam-area {
+/* .cam-area {
   align-self: stretch;
   position: relative;
 }
@@ -191,7 +192,7 @@
   overflow: hidden;
   flex-shrink: 0;
   display: none;
-}
+} */
 .button1 {
   flex: 1;
 }
@@ -301,7 +302,8 @@
 .cam-area-parent {
   align-self: stretch;
   justify-content: flex-end;
-  padding: 550px 0 0;
+  align-items: center;
+  /* padding: 550px 0 0; */
   box-sizing: border-box;
 }
 .frame-parent1 {
