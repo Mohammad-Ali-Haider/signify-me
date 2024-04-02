@@ -1,0 +1,638 @@
+.signify-me-logo-copy-11 {
+  width: 91px;
+  height: 91px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.taskbar-button {
+  height: 93.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+}
+.home6 {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+}
+.taskbar-buttons5 {
+  background-color: var(--melancholia);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-29xl);
+}
+.home7 {
+  position: relative;
+}
+.taskbar-buttons6 {
+  background-color: var(--melancholia);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-29xl);
+  white-space: nowrap;
+}
+.home8 {
+  position: relative;
+}
+.taskbar-buttons7 {
+  background-color: var(--melancholia);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-29xl);
+  white-space: nowrap;
+}
+.home9 {
+  position: relative;
+}
+.taskbar-buttons8 {
+  background-color: var(--melancholia);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-29xl);
+  white-space: nowrap;
+}
+.home10 {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+.taskbar-buttons9,
+.taskbar1 {
+  background-color: var(--melancholia);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.taskbar-buttons9 {
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-29xl);
+  white-space: nowrap;
+}
+.taskbar1 {
+  align-self: stretch;
+  border-right: 1px solid var(--void);
+  border-bottom: 1px solid var(--void);
+  border-left: 1px solid var(--void);
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-42xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-lgi-2);
+  color: var(--bright-skies);
+  font-family: var(--font-poppins);
+}
+.convert-asl-to,
+.live-cam-translator1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.live-cam-translator1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.convert-asl-to {
+  font-size: var(--font-size-20xl-1);
+}
+.live-cam-translator-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ensure-that-your,
+.instructions,
+.start-the-live,
+.the-text-box {
+  margin: 0;
+}
+.instructions-ensure-that-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  color: var(--void);
+}
+.taskbar-button3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.button {
+  height: 38px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+  color: var(--bright-skies);
+  text-align: left;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+.buttons,
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttons {
+  cursor: pointer;
+  border: 0px;
+  padding: var(--padding-sm) var(--padding-45xl);
+  background-color: var(--melancholia);
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.buttons-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.button1,
+/* .cam-area {
+  align-self: stretch;
+  position: relative;
+}
+.cam-area {
+  height: 494px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+} */
+.button1 {
+  flex: 1;
+}
+.buttons1 {
+  height: 66px;
+  width: 206px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-47xl);
+  box-sizing: border-box;
+}
+.button2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.buttons-parent,
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buttons2 {
+  height: 66px;
+  width: 195px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-47xl);
+  box-sizing: border-box;
+}
+.buttons-parent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 138px 0 136.5px;
+  gap: var(--gap-xl);
+}
+.translated-text {
+  align-self: stretch;
+  width: 217px;
+  position: relative;
+  display: inline-block;
+}
+.audio-indicator {
+  align-self: stretch;
+  height: 223px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-158xl);
+  box-sizing: border-box;
+}
+.for-audio-click {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 161px;
+}
+.signify-me-logo-child {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 38px;
+}
+.audio-indicator-parent,
+.signify-me-logo {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.signify-me-logo {
+  width: 375px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-54xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.audio-indicator-parent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+}
+.cam-area-parent,
+.frame-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+}
+.cam-area-parent {
+  align-self: stretch;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 550px 0 0; */
+  box-sizing: border-box;
+}
+.frame-parent1 {
+  width: 764px;
+  justify-content: flex-start;
+}
+.taskbar-button-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+}
+.taskbar-button-inner,
+.taskbar-button1,
+.taskbar-button2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.taskbar-button2 {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+}
+.taskbar-button1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 88px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--melancholia);
+  font-family: var(--font-poppins);
+}
+.signify-me-logo-copy-21 {
+  height: 212px;
+  width: 212px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 212px;
+  cursor: pointer;
+}
+.quick-links1 {
+  width: 142px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.live-cam-translator2 {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+.home11,
+.phrase-dictionary2,
+.video-translator1 {
+  width: 164px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.home11,
+.phrase-dictionary2 {
+  width: 175px;
+}
+.home11 {
+  width: 60px;
+  min-width: 60px;
+}
+.navigation-items,
+.quick-links-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigation-items {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+}
+.quick-links-group {
+  width: 199px;
+  gap: var(--gap-5xs);
+}
+.about1,
+.support1 {
+  width: 78px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.support1 {
+  width: 102px;
+  min-width: 102px;
+}
+.copyright-symbol,
+.frame-parent2 {
+  width: 1115px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.copyright-symbol {
+  width: 1536px;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-221xl);
+}
+.copyright-symbol-svgrepo-com-1-icon1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 30px;
+}
+.signify-me-20241 {
+  position: relative;
+}
+.home-nav-link {
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--bright-skies);
+}
+.footer1,
+.livecam {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer1 {
+  align-self: stretch;
+  background-color: var(--melancholia);
+  align-items: center;
+  padding: var(--padding-45xl) var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.livecam {
+  width: 100%;
+  position: relative;
+  background-color: var(--bright-skies);
+  align-items: flex-start;
+  gap: var(--gap-165xl);
+  letter-spacing: normal;
+}
+/* .cam-area {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+} */
+.cam-area .video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+@media screen and (max-width: 1525px) {
+  .copyright-symbol {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .cam-area-parent {
+    padding-top: 357px;
+    box-sizing: border-box;
+  }
+  .taskbar-button1 {
+    padding-bottom: 57px;
+    box-sizing: border-box;
+  }
+  .copyright-symbol {
+    gap: 240px 120px;
+  }
+  .livecam {
+    gap: 92px 184px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .taskbar1 {
+    gap: 61px 30px;
+  }
+  .live-cam-translator1 {
+    font-size: var(--font-size-32xl);
+  }
+  .convert-asl-to {
+    font-size: var(--font-size-12xl);
+  }
+  .taskbar-button3 {
+    gap: 19px 39px;
+  }
+  .buttons-parent {
+    padding-left: 68px;
+    padding-right: 69px;
+    box-sizing: border-box;
+  }
+  .cam-area-parent {
+    padding-top: 232px;
+    box-sizing: border-box;
+  }
+  .taskbar-button2 {
+    gap: 50px 100px;
+  }
+  .taskbar-button1 {
+    padding-bottom: 37px;
+    box-sizing: border-box;
+  }
+  .copyright-symbol {
+    gap: 240px 60px;
+  }
+  .footer1 {
+    gap: 32px 64px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .taskbar-buttons6,
+  .taskbar-buttons7,
+  .taskbar-buttons8 {
+    gap: 50px 25px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .taskbar1 {
+    gap: 61px 15px;
+  }
+  .live-cam-translator1 {
+    font-size: var(--font-size-19xl);
+  }
+  .convert-asl-to {
+    font-size: var(--font-size-4xl);
+  }
+  .instructions-ensure-that-container {
+    font-size: var(--font-size-xl);
+  }
+  .buttons {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .button1,
+  .button2 {
+    font-size: var(--font-size-xl);
+  }
+  .buttons-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .for-audio-click,
+  .translated-text {
+    font-size: var(--font-size-xl);
+  }
+  .signify-me-logo {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cam-area-parent,
+  .frame-parent1 {
+    gap: 28px 56px;
+  }
+  .taskbar-button2 {
+    gap: 25px 100px;
+  }
+  .taskbar-button1 {
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .quick-links1 {
+    font-size: var(--font-size-xl);
+  }
+  .home11,
+  .live-cam-translator2,
+  .phrase-dictionary2,
+  .video-translator1 {
+    font-size: var(--font-size-base);
+  }
+  .about1,
+  .support1 {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+  .copyright-symbol {
+    gap: 240px 30px;
+  }
+  .signify-me-20241 {
+    font-size: var(--font-size-base);
+  }
+  .home-nav-link {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer1 {
+    gap: 16px 64px;
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .livecam {
+    gap: 46px 184px;
+  }
+}

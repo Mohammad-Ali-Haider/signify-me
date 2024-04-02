@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SignifyMe</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dictionary.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='page_icon.ico') }}">
+  </head>
+  <body>
+    <div class="dictioanry">
+      <header class="taskbar4">
+        <div class="signify-me-logo-copy-1-frame">
+          <img
+            class="signify-me-logo-copy-14"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='public/signify-me-logo-copy-1.svg') }}"
+            id="signifyMeLogoCopy1"
+          />
+        </div>
+        <div class="taskbar-buttons1">
+          <div class="home1" id="taskbar-home">Home</div>
+        </div>
+        <div class="taskbar-buttons2">
+          <div class="home2" id="taskbar-video">Video Translator</div>
+        </div>
+        <div class="taskbar-buttons3">
+          <div class="home3" id="taskbar-livecam">Live Cam Translator</div>
+        </div>
+        <div class="taskbar-buttons4">
+          <div class="home4" id="taskbar-dict">Phrase Dictionary</div>
+        </div>
+        <div class="taskbar-buttons5">
+          <div class="home5" id="taskbar-aboutus">About Us</div>
+        </div>
+      </header>
+      <section class="vector-parent">
+        <img
+          class="vector-icon"
+          loading="lazy"
+          alt=""
+          src="{{ url_for('static', filename='public/vector-1.svg') }}"
+        />
+
+        <div class="frame-wrapper7">
+          <div class="we-are-sorry-for-the-inconveni-parent">
+            <h1 class="we-are-sorry">We are sorry for the inconvenience :(</h1>
+            <h3 class="this-feature-is">
+              This feature is currently under construction
+            </h3>
+          </div>
+        </div>
+        <img
+          class="frame-child2"
+          loading="lazy"
+          alt=""
+          src="{{ url_for('static', filename='public/vector-2.svg') }}"
+        />
+      </section>
+      <footer class="footer4">
+        <div class="signify-me-logo-copy-2-parent">
+          <img
+            class="signify-me-logo-copy-24"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='public/signify-me-logo-copy-2.svg') }}"
+            id="signifyMeLogoCopy2"
+          />
+
+          <div class="support-label">
+            <div class="quick-links-parent1">
+              <div class="quick-links4">Quick Links</div>
+              <div class="live-cam-translator-link">
+                <div class="live-cam-translator5" id="liveCamTranslator">
+                  Live Cam Translator
+                </div>
+                <div class="video-translator5" id="videoTranslatorText">
+                  Video Translator
+                </div>
+                <div class="phrase-dictionary5" id="phraseDictionaryText">
+                  Phrase Dictionary
+                </div>
+                <div class="home30" id="homeText">Home</div>
+              </div>
+            </div>
+            <div class="about4" id="aboutText">About</div>
+            <div class="support4" id="supportText">Support</div>
+          </div>
+        </div>
+        <div class="phrase-dictionary-link">
+          <img
+            class="copyright-symbol-svgrepo-com-1-icon4"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='public/copyrightsymbolsvgrepocom-1.svg') }}"
+          />
+
+          <div class="signify-me-20244">Signify Me! 2024</div>
+        </div>
+      </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script/javascript.js') }}"></script>
+  </body>
+</html>
