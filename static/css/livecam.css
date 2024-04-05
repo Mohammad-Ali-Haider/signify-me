@@ -160,7 +160,6 @@
   flex-direction: row;
   align-items: flex-start;
   box-sizing: border-box;
-  max-width: 100%;
 }
 .buttons {
   cursor: pointer;
@@ -181,66 +180,24 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
-.button1,
-/* .cam-area {
-  align-self: stretch;
-  position: relative;
-}
-.cam-area {
-  height: 494px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-} */
 .button1 {
-  flex: 1;
+  font-family: var(--font-poppins);
+  color: var(--bright-skies);
+  text-align: left;
 }
 .buttons1 {
-  height: 66px;
-  width: 206px;
+  cursor: pointer;
+  border: 1.8px solid var(--color-navy);
+  background-color: var(--melancholia);
   border-radius: var(--br-81xl);
-  overflow: hidden;
-  flex-shrink: 0;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-sm) var(--padding-47xl);
-  box-sizing: border-box;
 }
-.button2 {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-}
-.buttons-parent,
-.buttons2 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-.buttons2 {
-  height: 66px;
-  width: 195px;
-  border-radius: var(--br-81xl);
-  overflow: hidden;
-  flex-shrink: 0;
-  justify-content: flex-start;
-  padding: var(--padding-sm) var(--padding-47xl);
-  box-sizing: border-box;
-}
-.buttons-parent {
-  align-self: stretch;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 138px 0 136.5px;
-  gap: var(--gap-xl);
-}
-.translated-text {
-  align-self: stretch;
-  width: 217px;
-  position: relative;
-  display: inline-block;
+.buttons1:hover{
+  background-color: var(--color-darkslateblue);
+  border: 1.8px solid var(--color-royalblue);
 }
 .audio-indicator {
   align-self: stretch;
@@ -248,44 +205,39 @@
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-5xs) var(--padding-5xs) var(--padding-158xl);
   box-sizing: border-box;
 }
-.for-audio-click {
-  height: 38px;
-  flex: 1;
-  position: relative;
-  display: inline-block;
-  min-width: 161px;
-}
 .signify-me-logo-child {
-  height: 38px;
-  width: 38px;
+  height: 28px;
+  width: 28px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
   min-height: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.audio-indicator-parent,
+.signify-me-logo-child:hover{
+  cursor: pointer;
+}
 .signify-me-logo {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.signify-me-logo {
-  width: 375px;
+.translate-to-audio-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 0 0 0 var(--padding-54xl);
-  box-sizing: border-box;
-  gap: var(--gap-base);
 }
 .audio-indicator-parent {
-  align-self: stretch;
+  align-self: center;
   flex-direction: column;
   align-items: flex-end;
   gap: var(--gap-sm);
@@ -581,7 +533,7 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
-  .for-audio-click,
+  /* .for-audio-click, */
   .translated-text {
     font-size: var(--font-size-xl);
   }
@@ -635,4 +587,30 @@
   .livecam {
     gap: 46px 184px;
   }
+}
+
+/* Styles for the container of the textbox */
+.textbox-container {
+  margin: 20px;
+}
+
+/* Styles for the textbox */
+.textbox {
+  width: 600px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the link inside the textbox */
+.textbox a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Styles for the link when hovered */
+.textbox a:hover {
+  color: darkblue;
 }

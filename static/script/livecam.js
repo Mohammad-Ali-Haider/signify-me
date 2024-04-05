@@ -53,10 +53,39 @@ if (taskbarDict) {
     });
 }
 
+var start_stop_button = document.getElementById("start_stop");
+var start_stop_text = document.getElementById("start_stop_text");
+if(start_stop_button){
+    start_stop_button.addEventListener("click", function(e){
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/start-stop-clicked', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({clicked: true}));
+        if (start_stop_text.textContent == "STOP"){
+            start_stop_text.textContent = "START";
+        }else{
+            start_stop_text.textContent = "STOP";
+        }
+    });
+}
+
+var audio_button = document.getElementById("audio-button");
+if(audio_button){
+    audio_button.addEventListener("click", function (e){
+        var translated_text = document.getElementById("translated_words");
+        var message = new SpeechSynthesisUtterance();
+        message.text = translated_text.textContent;
+        message.lang = "en-US";
+        window.speechSynthesis.speak(message);
+
+    })
+}
+
 socket.on('update_data', function (data) {
+    var translated_text = document.getElementById("translated_words");
+    translated_text.textContent = data.words;
     console.log(data.predicted_class);
     console.log(data.probability);
     console.log(data.words);
-    console.log("LOL");
 });
 

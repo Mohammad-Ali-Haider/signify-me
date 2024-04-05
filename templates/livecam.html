@@ -77,20 +77,20 @@
               <div class="cam-area-parent">
                 <div class="cam-area" id="camera-area"></div>
                 <div class="buttons-parent" id="button-start-stop">
-                  <div class="buttons1">
-                    <div class="button1">START</div>
-                  </div>
-                  <div class="buttons2">
-                    <div class="button2">STOP</div>
+                  <div class="buttons1" id="start_stop">
+                    <div class="button1" id="start_stop_text">START</div>
                   </div>
                 </div>
                 <div class="audio-indicator-parent" id="audio-indicator">
                   <div class="audio-indicator">
                     <div class="translated-text">TRANSLATED TEXT:</div>
-                  </div>
-                  <div class="signify-me-logo">
-                    <div class="for-audio-click">for audio, click here:</div>
-                    <img class="signify-me-logo-child" loading="lazy" alt="" />
+                    <div class="textbox-container">
+                      <div class="textbox" id="translated_words"></div>
+                    </div>
+                    <div class="translate-to-audio-text">
+                      <div class="for-audio-click">for audio, click here:</div>
+                      <img class="signify-me-logo-child" id="audio-button" src="{{ url_for('static', filename='public/vector-3.svg') }}"/>
+                    </div>
                   </div>
                 </div>
               </div>

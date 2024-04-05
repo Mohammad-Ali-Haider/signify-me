@@ -162,7 +162,6 @@
   font-size: var(--font-size-6xl);
 }
 .our-story-container {
-  cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-47xl);
   background-color: var(--melancholia);
@@ -173,10 +172,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   white-space: nowrap;
-}
-.our-story-container:hover,
-.our-values-wrapper:hover {
-  background-color: var(--color-darkslateblue);
 }
 .signify-me-as1 {
   align-self: stretch;
@@ -232,7 +227,6 @@
   text-align: left;
 }
 .our-values-wrapper {
-  cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-36xl);
   background-color: var(--melancholia);
@@ -411,7 +405,6 @@
   min-width: 124px;
 }
 .our-team-container {
-  cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-47xl);
   background-color: var(--bright-skies);
@@ -424,9 +417,6 @@
   justify-content: flex-start;
   box-sizing: border-box;
   white-space: nowrap;
-}
-.our-team-container:hover {
-  background-color: var(--color-gainsboro);
 }
 .meet-the-talented1 {
   margin: 0;
@@ -640,10 +630,6 @@
   align-self: stretch;
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-8xs);
-}
-.retirement-kab1,
-.role-pata1 {
-  margin: 0;
 }
 .retirement-kab-role-container1 {
   align-self: stretch;
