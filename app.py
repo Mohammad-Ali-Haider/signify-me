@@ -62,20 +62,6 @@ OFFSET = 20
 IMGSIZE = 150
 isPotrait = False
 
-def draw_asl_fingerspelling(image, text):
-    font = cv2.FONT_HERSHEY_SIMPLEX
-    font_scale = 2
-    font_thickness = 3
-    color = (0, 255, 0)
-
-    image_height, image_width, _ = image.shape
-
-    text_size = cv2.getTextSize(text, font, font_scale, font_thickness)[0]
-    text_x = (image_width - text_size[0]) // 2
-    text_y = (image_height + text_size[1]) // 2
-
-    cv2.putText(image, text, (text_x, text_y), font, font_scale, color, font_thickness, cv2.LINE_AA)
-
 with open('./python/model.pkl', 'rb') as f:
     model = pickle.load(f)
 
